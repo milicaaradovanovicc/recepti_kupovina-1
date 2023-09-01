@@ -1,0 +1,67 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Recepti</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            aria-current="page"
+            routerLink="/addrecipe"
+            routerLinkActive="active"
+            >Dodaj recept</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            aria-current="page"
+            routerLink="/recipeslist"
+            routerLinkActive="active"
+            >Lista recepata</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            aria-current="page"
+            routerLink="/weekplan"
+            routerLinkActive="active"
+            >Plan obroka</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            aria-current="page"
+            routerLink="/shopinglist"
+            routerLinkActive="active"
+            >Spisak za kupovinu</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="container">
+  <div class="container-fluid px-0">
+    <div class="row g-0">
+      <div class="col-lg-6 vh-100">
+        <app-new-recipe></app-new-recipe>
+      </div>
+      <div class="col-lg-6 vh-100"></div>
+    </div>
+  </div>
+</section>
